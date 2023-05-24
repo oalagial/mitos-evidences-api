@@ -25,8 +25,8 @@ password: "password",
 Modify the configuration parameters (user, host, database, password) to match your PostgreSQL setup.
 
 ## Server Startup
-#npm install \
-#node server.js \
+### npm install
+### node server.js
 The server should now be running and listening for requests.
 
 ## Testing the Server
