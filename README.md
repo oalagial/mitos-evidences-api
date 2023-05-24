@@ -8,7 +8,9 @@ Node.js: Install Node.js from the official website (https://nodejs.org). \
 PostgreSQL: Install PostgreSQL on your system (https://www.postgresql.org/download/).
 
 ## Installation
-Clone or download the project code to your local machine.
+Clone or download the project code to your local machine and then run:
+### npm install
+
 
 ## Database Setup
 Create a new PostgreSQL database or use an existing one to connect the server.
@@ -25,7 +27,6 @@ password: "password",
 Modify the configuration parameters (user, host, database, password) to match your PostgreSQL setup.
 
 ## Server Startup
-### npm install
 ### node server.js
 The server should now be running and listening for requests.
 
